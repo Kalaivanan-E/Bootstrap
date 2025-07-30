@@ -1,24 +1,73 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            #text{
+                color: gray;
+            }
+        </style>
     </head>
     <body>
-        <nav class = 'navbar navbar-dark bg-dark navbar-expand-lg'>
-            <a href="#" class="navbar-brand"> Logo</a>
-            
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a href="#" class="navbar-brand">Logo</a>
             <div class="ml-auto">
-                <ul class = 'navbar-nav'>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                </ul>
+                <ul class="navbar nav">
+                    <li><a href="./index.html" class="nav-link text-light" >Home</a></li>
+                    <li><a href="./about.html" class="nav-link text-light">About</a></li>
+                    <li><a href="./service.html" class="nav-link text-light">Service</a></li>
+                    <li><a href="./employees.html" class="nav-link text-light">Employees</a></li>
+                    <li><a href="./product.html" class="nav-link text-light">Product</a></li>
+                    <li><a href="./contact.html" class="nav-link text-light">Contact</a></li>
+                    <li><a href="./login.html" class="nav-link text-light">Login</a></li>
+                </ul> 
             </div>
         </nav>
-        <div>
-            <h2>Contact page</h2>
+
+        
+
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </nav>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Send us an Email</h3>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-6">
+              <label class="form-label">NAME *</label>
+              <input type="text" class="form-control" placeholder="Your name" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">EMAIL *</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <label class="form-label">PHONE</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your phone number"
+              />
+            </div>
+          </div>
+
+            
         </div>
+
+        
+
+        
     </body>
 </html>
