@@ -1,0 +1,11 @@
+
+Carousel:
+
+  step 1: collect images from pixels.com =1400*600
+  step 2: write carousel Bootstrap camp code
+  step 3: add carousel dependencies
+            a) Bootstrap.class
+            b)popper.js
+            c)Jqem.js
+            d)bootstrap.js
+  step 4: define slider interval jquary code snippet 
